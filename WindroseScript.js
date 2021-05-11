@@ -259,7 +259,7 @@ function refreshWindrose(windrose_div, database, table, metric, avg, timeFrom, t
 				currentMetric = metric;
 			}
 			
-			Plotly.react(windrose_div, traces, layout,{displayModeBar: false, staticPlot: true});
+			Plotly.react(windrose_div, traces, layout,{displayModeBar: false});
   	  }
       
     });
@@ -272,7 +272,7 @@ function createWindrose(wr_div, layout){
 
 function drawRose(){
 	console.log("Plotly drawRose Trying");
-    Plotly.newPlot(windrose_div, traces, layout,{displayModeBar: false, staticPlot: true});
+    Plotly.newPlot(windrose_div, traces, layout,{displayModeBar: false});
 	console.log("Plotly newplot success");
 }
 
