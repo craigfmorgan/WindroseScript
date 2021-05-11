@@ -1,4 +1,4 @@
-console.log("loading Windrose Script");
+console.log("loading Windrose Script latest Git push");
 
 var traces = [
 	{
