@@ -271,8 +271,9 @@ function createWindrose(wr_div, layout){
 }
 
 function drawRose(){
-		console.log("drawRose Function Called");
+	console.log("Plotly drawRose Trying");
     Plotly.newPlot(windrose_div, traces, layout,{displayModeBar: false, staticPlot: true});
+	console.log("Plotly newplot success");
 }
 
 function updateData(data, metric){
