@@ -181,9 +181,9 @@ var metricSettings = {
 
 var layout = {
 	autosize: true,
-	//width: 700,
-	//height: 500,
-	/*margin: {
+	width: 700,
+	height: 500,
+	margin: {
 		l: 30,
 		r: 280,
 		b: 25,
@@ -191,7 +191,7 @@ var layout = {
 		pad: 2,
 		autoexpand: true
 	},
-	*/
+	
 	legend: {
 		tracegroupgap: 0,
 		font: {
