@@ -197,7 +197,10 @@ var layout = {
 		font: {
 			size: 14,
 			color: 'white'
-		}
+		},
+		orientation:'h',
+		xanchor: 'center',
+		yanchor: 'bottom',
 	},
 	polar: {
 		radialaxis: {
