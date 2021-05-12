@@ -181,8 +181,8 @@ var metricSettings = {
 
 var layout = {
 	autosize: true,
-	width: 700,
-	height: 500,
+	//width: 700,
+	//height: 500,
 	/*margin: {
 		l: 30,
 		r: 280,
