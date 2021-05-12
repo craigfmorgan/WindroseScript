@@ -183,7 +183,7 @@ var layout = {
 	autosize: true,
 	width: 700,
 	height: 500,
-	margin: {
+	/*margin: {
 		l: 30,
 		r: 280,
 		b: 25,
@@ -191,7 +191,7 @@ var layout = {
 		pad: 2,
 		autoexpand: true
 	},
-	
+	*/
 	legend: {
 		tracegroupgap: 0,
 		font: {
@@ -227,7 +227,7 @@ var table;
 var collapsed = false;
 var center;
 var layers = [];
-var windroseOverlay;
+//var windroseOverlay;
 
 function refreshWindrose(windrose_div, database, table, metric, avg, timeFrom, timeTo){
 
@@ -251,7 +251,7 @@ function refreshWindrose(windrose_div, database, table, metric, avg, timeFrom, t
 				createWindrose(windrose_div, layout);
 				currentMetric = metric;
 			}else{
-				windroseOverlay.setPosition(center);
+				//windroseOverlay.setPosition(center);
 				
 				if(currentMetric === metric){
 					//view.animate({center: center, duration: 400});
@@ -260,7 +260,7 @@ function refreshWindrose(windrose_div, database, table, metric, avg, timeFrom, t
 				currentMetric = metric;
 			}
 			
-			Plotly.react(windrose_div, traces, layout,{displayModeBar: false});
+			Plotly.react(windrose_div, traces, layout,{displayModeBar: false},{responsive: true});
   	  }
       
     });
@@ -273,7 +273,7 @@ function createWindrose(wr_div, layout){
 
 function drawRose(){
 	console.log("Plotly drawRose Trying");
-    Plotly.newPlot(windrose_div, traces, layout,{displayModeBar: false});
+    Plotly.newPlot(windrose_div, traces, layout,{displayModeBar: false}),{responsive: true};
 	console.log("Plotly newplot success");
 }
 
