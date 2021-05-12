@@ -200,7 +200,10 @@ var layout = {
 		},
 		orientation:'h',
 		xanchor: 'center',
+		x: 1,
 		yanchor: 'bottom',
+		y: -1,
+
 	},
 	polar: {
 		radialaxis: {
