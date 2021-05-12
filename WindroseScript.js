@@ -183,6 +183,7 @@ var layout = {
 	autosize: true,
 	//width: 700,
 	//height: 500,
+	/*
 	margin: {
 		//l: 30,
 		//r: 280,
@@ -191,6 +192,7 @@ var layout = {
 		pad: -1,
 		//autoexpand: true
 	},
+	*/
 	
 	legend: {
 		tracegroupgap: 0,
