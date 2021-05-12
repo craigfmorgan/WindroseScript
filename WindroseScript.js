@@ -180,17 +180,18 @@ var metricSettings = {
 };
 
 var layout = {
-	autosize: false,
-	width: 585,
-	height: 400,
-	margin: {
+	autosize: true,
+	//width: 700,
+	//height: 500,
+	/*margin: {
 		l: 30,
 		r: 280,
 		b: 25,
 		t: 25,
 		pad: 2,
-		autoexpand: false
+		autoexpand: true
 	},
+	*/
 	legend: {
 		tracegroupgap: 0,
 		font: {
