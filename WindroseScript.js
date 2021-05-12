@@ -186,10 +186,10 @@ var layout = {
 	margin: {
 		//l: 30,
 		//r: 280,
-		b: 25,
+		//b: 25,
 		//t: 25,
-		pad: 2,
-		autoexpand: true
+		pad: -1,
+		//autoexpand: true
 	},
 	
 	legend: {
@@ -200,9 +200,8 @@ var layout = {
 		},
 		orientation:'h',
 		xanchor: 'center',
-		x: 1,
 		yanchor: 'bottom',
-		y: -1,
+		y: -2,
 
 	},
 	polar: {
